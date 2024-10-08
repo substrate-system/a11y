@@ -3,7 +3,7 @@
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
 [![Common Changelog](https://nichoth.github.io/badge/common-changelog.svg)](./CHANGELOG.md)
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
-[![install size](https://flat.badgen.net/packagephobia/install/@substrate-system/a11y)](https://packagephobia.com/result?p=@substrate-system/a11y)
+[![install size](https://packagephobia.com/badge?p=@substrate-system/a11y)](https://packagephobia.com/result?p=@substrate-system/a11y)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 Factoring out some common CSS utilities, so there is less duplication across projects.
