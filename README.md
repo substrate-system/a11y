@@ -10,6 +10,14 @@ Factoring out some common CSS utilities, so there is less duplication across pro
 
 <!-- toc -->
 
+- [install](#install)
+- [API](#api)
+- [Use](#use)
+  * [Import CSS](#import-css)
+  * [Minified CSS](#minified-css)
+
+<!-- tocstop -->
+
 ## install
 
 ```sh
