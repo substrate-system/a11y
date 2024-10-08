@@ -12,6 +12,7 @@ Factoring out some common CSS utilities, so there is less duplication across pro
 
 - [install](#install)
 - [API](#api)
+  * [`visually-hidden`](#visually-hidden)
 - [Use](#use)
   * [Import CSS](#import-css)
   * [Minified CSS](#minified-css)
