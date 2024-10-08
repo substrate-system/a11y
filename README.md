@@ -25,10 +25,19 @@ npm i -S @substrate-system/a11y
 ```
 
 ## API
+This package looks for these classes:
 
-You can import files if you are using a bundler.
-```js
-import '@substrate-system/a11y'
+### `visually-hidden`
+
+Use this to create accessible buttons with no visible text.
+
+See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
+
+```html
+<button class="${classes}">
+    <svg><!--  icon here  --></svg>
+    <span class="visually-hidden">Button text</span>
+</button>
 ```
 
 ## Use
