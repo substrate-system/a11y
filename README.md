@@ -86,3 +86,8 @@ See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
     <span class="visually-hidden">Button text</span>
 </button>
 ```
+
+## see also
+
+* [Accessible Icon Buttons ](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
+* [Inclusively Hidden](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html)
