@@ -11,11 +11,12 @@ Factoring out some common CSS utilities, so there is less duplication across pro
 <!-- toc -->
 
 - [install](#install)
-- [API](#api)
-  * [`visually-hidden`](#visually-hidden)
 - [Use](#use)
+  * [example](#example)
   * [Import CSS](#import-css)
   * [Minified CSS](#minified-css)
+- [API](#api)
+  * [`visually-hidden`](#visually-hidden)
 
 <!-- tocstop -->
 
