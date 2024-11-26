@@ -25,25 +25,22 @@ Factoring out some common CSS utilities, so there is less duplication across pro
 npm i -S @substrate-system/a11y
 ```
 
-## API
-This package looks for these classes:
+## Use
+This package exposes CSS only.
 
-### `visually-hidden`
+### example
+Put the relevant classes in your HTML.
 
-Use this to create accessible buttons with no visible text.
-
-See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
-
-```html
-<button class="${classes}">
+```js
+const myEl = document.querySelector('div')
+myEl?.innerHTML = `<button>
     <svg><!--  icon here  --></svg>
     <span class="visually-hidden">Button text</span>
-</button>
+</button>`
 ```
 
-## Use
-
 ### Import CSS
+If using a bundler, import the package as normal.
 
 ```js
 import '@substrate-system/a11y'
@@ -55,8 +52,9 @@ import '@substrate-system/a11y/min'
 ```
 
 ### Minified CSS
-This package exposes minified CSS files. You can copy them to a location that is
-accessible to your web server, then link to them directly in HTML.
+If you don't want to use a bundler, this package exposes minified CSS files too.
+You can copy them to a location that is accessible to your web server, then link
+to them directly in HTML.
 
 #### copy
 ```sh
@@ -71,4 +69,19 @@ cp ./node_modules/@substrate-system/a11y/dist/index.min.css ./public/a11y.css
     <link rel="stylesheet" href="./a11y.css">
 </head>
 </html>
+```
+
+## API
+This package exposes CSS that will look for the following classes.
+
+### `visually-hidden`
+Use this to create accessible buttons with no visible text.
+
+See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
+
+```html
+<button class="${classes}">
+    <svg><!--  icon here  --></svg>
+    <span class="visually-hidden">Button text</span>
+</button>
 ```
