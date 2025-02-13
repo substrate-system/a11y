@@ -4,10 +4,18 @@
 [![Common Changelog](https://nichoth.github.io/badge/common-changelog.svg)](./CHANGELOG.md)
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
 [![install size](https://flat.badgen.net/packagephobia/install/@substrate-system/a11y?cache-control=no-cache)](https://packagephobia.com/result?p=@substrate-system/a11y)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![license](https://img.shields.io/badge/license-Polyform_Non_Commercial-26bc71?style=flat-square)](LICENSE)
+
 
 Factoring out some common CSS utilities, so there is less duplication
 across projects.
+
+* [Accessible Icon Buttons](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
+* [Inclusively Hidden](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html)
+
+**_featuring_**
+
+The [`visually-hidden` class](#visually-hidden).
 
 <!-- toc -->
 
