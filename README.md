@@ -17,18 +17,10 @@ across projects.
 
 The [`visually-hidden` class](#visually-hidden).
 
+<details><summary><h2>Contents</h2></summary>
 <!-- toc -->
+</details>
 
-- [install](#install)
-- [Use](#use)
-  * [example](#example)
-  * [Import CSS](#import-css)
-  * [Minified CSS](#minified-css)
-- [API](#api)
-  * [`visually-hidden`](#visually-hidden)
-- [see also](#see-also)
-
-<!-- tocstop -->
 
 ## install
 
