@@ -50,7 +50,6 @@
     "stylelint-config-standard": "^37.0.0"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/substrate-system/a11y.git"
@@ -62,5 +61,6 @@
   "bugs": {
     "url": "https://github.com/substrate-system/a11y/issues"
   },
-  "homepage": "https://github.com/substrate-system/a11y#readme"
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/substrate-system/a11y"
 }
