@@ -26,6 +26,7 @@ The [`visually-hidden` class](#visually-hidden).
   * [Minified CSS](#minified-css)
 - [API](#api)
   * [`visually-hidden`](#visually-hidden)
+- [see also](#see-also)
 
 <!-- tocstop -->
 
