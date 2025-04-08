@@ -25,7 +25,7 @@ The [`visually-hidden` class](#visually-hidden).
 - [Use](#use)
   * [example](#example)
   * [Import CSS](#import-css)
-  * [Minified CSS](#minified-css)
+  * [Link](#link)
 - [API](#api)
   * [`visually-hidden`](#visually-hidden)
 - [see also](#see-also)
