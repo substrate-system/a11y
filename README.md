@@ -47,12 +47,11 @@ This package exposes CSS only.
 ### example
 Put the relevant classes in your HTML.
 
-```js
-const myEl = document.querySelector('div')
-myEl?.innerHTML = `<button>
-    <svg><!--  icon here  --></svg>
-    <span class="visually-hidden">Button text</span>
-</button>`
+```html
+<button>
+  <svg><!--  icon here  --></svg>
+  <span class="visually-hidden">My Cool Button text</span>
+</button>
 ```
 
 ### Import CSS
@@ -62,12 +61,18 @@ If using a bundler, import the package as normal.
 import '@substrate-system/a11y'
 ```
 
+#### Import specific things
+
+```js
+import '@substrate-system/a11y/visually-hidden'
+```
+
 Or minified:
 ```js
 import '@substrate-system/a11y/min'
 ```
 
-### Minified CSS
+### Link
 If you don't want to use a bundler, this package exposes minified CSS files too.
 You can copy them to a location that is accessible to your web server, then link
 to them directly in HTML.
