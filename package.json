@@ -17,7 +17,7 @@
     "build-css": "postcss src/*.css --use postcss-nesting --dir dist",
     "build-css:min": "postcss src/*.css --use cssnano postcss-nesting --dir dist --ext .min.css",
     "build": "mkdir -p ./dist && rm -rf ./dist/* && npm run build-css && npm run build-css:min && npm run build:index && npm run build-index:min",
-    "build:index": "touch dist/index.css && cat ./src/*.css >> dist/index.css",
+    "build:index": "touch dist/index.css && cat ./src/*.css >> dist/index.css && postcss ./dist/index.css --use postcss-nesting --replace",
     "build-index:min": "postcss dist/index.css --use cssnano postcss-nesting > dist/index.min.css",
     "preversion": "npm run stylelint",
     "toc": "markdown-toc --maxdepth 3 -i README.md",
