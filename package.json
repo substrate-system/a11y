@@ -32,16 +32,11 @@
     "./css/min": "./dist/index.min.css",
     "./css/*": "./dist/*.css",
     "./css/min/*": "./dist/*.min.css",
-    "./*": {
-      "import": [
-        "./dist/*.js",
-        "./dist/*"
-      ],
-      "require": [
-        "./dist/*.cjs",
-        "./dist/*"
-      ]
-    }
+    "./min/*": "./dist/*.min.css",
+    "./*": [
+      "./dist/*.css",
+      "./dist/*"
+    ]
   },
   "dependencies": {},
   "devDependencies": {
