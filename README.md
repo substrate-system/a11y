@@ -15,7 +15,8 @@ across projects.
 
 **_featuring_**
 
-The [`visually-hidden` class](#visually-hidden).
+* The [`visually-hidden` class](#visually-hidden).
+* [Scrolling + `prefers-reduced-motion` media query]()
 
 <details><summary><h2>Contents</h2></summary>
 
@@ -54,7 +55,7 @@ Put the relevant classes in your HTML.
 </button>
 ```
 
-### Import CSS
+### Bundler
 If using a bundler, import the package as normal.
 
 ```js
@@ -70,6 +71,14 @@ import '@substrate-system/a11y/visually-hidden'
 Or minified:
 ```js
 import '@substrate-system/a11y/min'
+```
+
+### CSS imports
+
+Import in CSS:
+
+```css
+@import url("../node_modules/@substrate-system/a11y/dist/index.min.css");
 ```
 
 ### Link
@@ -107,7 +116,24 @@ See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
 </button>
 ```
 
+### `prefers-reduced-motion`
+Disable smooth scrolling if the `prefers-reduced-motion` media query is set.
+
+#### Bundler
+
+```js
+import '@substrate-system/a11y/reduced-motion'
+```
+
+#### CSS
+
+```css
+@import url("../node_modules/@substrate-system/a11y/dist/reduced-motion.min.css");
+```
+
 ## see also
 
 * [Accessible Icon Buttons ](https://www.sarasoueidan.com/blog/accessible-icon-buttons/)
 * [Inclusively Hidden](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html)
+* [How to animate scrolling to anchor links with one line of CSS](https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/#accessibility-concerns)
+  -- scrolling + accessibility

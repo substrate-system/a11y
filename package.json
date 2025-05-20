@@ -27,12 +27,13 @@
   },
   "exports": {
     ".": "./dist/index.css",
+    "./reduced-motion": "./dist/reduced-motion.css",
+    "./visually-hidden": "./dist/visually-hidden.css",
     "./min": "./dist/index.min.css",
+    "./min/*": "./dist/*.min.css",
     "./css": "./dist/index.css",
-    "./css/min": "./dist/index.min.css",
     "./css/*": "./dist/*.css",
     "./css/min/*": "./dist/*.min.css",
-    "./min/*": "./dist/*.min.css",
     "./*": [
       "./dist/*.css",
       "./dist/*"
