@@ -25,10 +25,12 @@ across projects.
 - [install](#install)
 - [Use](#use)
   * [example](#example)
-  * [Import CSS](#import-css)
+  * [Bundler](#bundler)
+  * [CSS imports](#css-imports)
   * [Link](#link)
 - [API](#api)
   * [`visually-hidden`](#visually-hidden)
+  * [`prefers-reduced-motion`](#prefers-reduced-motion)
 - [see also](#see-also)
 
 <!-- tocstop -->
