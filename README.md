@@ -16,7 +16,7 @@ across projects.
 **_featuring_**
 
 * The [`visually-hidden` class](#visually-hidden).
-* [Scrolling + `prefers-reduced-motion` media query]()
+* [Scrolling + `prefers-reduced-motion` media query](#prefers-reduced-motion)
 
 <details><summary><h2>Contents</h2></summary>
 
@@ -64,7 +64,7 @@ If using a bundler, import the package as normal.
 import '@substrate-system/a11y'
 ```
 
-#### Import specific things
+#### Or import specific things
 
 ```js
 import '@substrate-system/a11y/visually-hidden'
@@ -111,8 +111,19 @@ Use this to create accessible buttons with no visible text.
 
 See [this article](https://www.sarasoueidan.com/blog/accessible-icon-buttons/).
 
+#### Bundler
+```js
+import '@substrate-system/a11y/visually-hidden'
+```
+
+#### CSS Import
+```css
+@import url("../node_modules/@substrate-system/a11y/dist/visually-hidden.min.css");
+```
+
+#### example
 ```html
-<button class="${classes}">
+<button>
     <svg><!--  icon here  --></svg>
     <span class="visually-hidden">Button text</span>
 </button>
@@ -127,7 +138,7 @@ Disable smooth scrolling if the `prefers-reduced-motion` media query is set.
 import '@substrate-system/a11y/reduced-motion'
 ```
 
-#### CSS
+#### CSS Import
 
 ```css
 @import url("../node_modules/@substrate-system/a11y/dist/reduced-motion.min.css");
