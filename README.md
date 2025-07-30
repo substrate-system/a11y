@@ -1,9 +1,10 @@
 # a11y
-![tests](https://github.com/substrate-system/a11y/actions/workflows/nodejs.yml/badge.svg)
+[![tests](https://img.shields.io/github/actions/workflow/status/substrate-system/a11y/nodejs.yml?style=flat-square)](https://github.com/substrate-system/a11y/actions/workflows/nodejs.yml)
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
 [![Common Changelog](https://nichoth.github.io/badge/common-changelog.svg)](./CHANGELOG.md)
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
 [![install size](https://flat.badgen.net/packagephobia/install/@substrate-system/a11y?cache-control=no-cache)](https://packagephobia.com/result?p=@substrate-system/a11y)
+[![GZip size](https://flat.badgen.net/bundlephobia/minzip/@substrate-system/a11y)](https://bundlephobia.com/package/@substrate-system/a11y)
 [![license](https://img.shields.io/badge/license-Big_Time-blue?style=flat-square)](LICENSE)
 
 

@@ -1,11 +1,8 @@
-import { type FunctionComponent, render } from 'preact'
-import { html } from 'htm/preact'
-import { example } from '../src/index.js'
+import '../src/visually-hidden.css'
 
-example()
-
-const Example:FunctionComponent<unknown> = function () {
-    return html`<div>hello</div>`
-}
-
-render(html`<${Example} />`, document.getElementById('root')!)
+document.getElementById('root')!.innerHTML = `
+    <div class="hello">
+        hello world
+        <button class="visually-hidden">hello</button>
+    </div>
+`
