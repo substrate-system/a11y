@@ -151,3 +151,4 @@ import '@substrate-system/a11y/reduced-motion'
 * [Inclusively Hidden](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html)
 * [How to animate scrolling to anchor links with one line of CSS](https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/#accessibility-concerns)
   -- scrolling + accessibility
+* [Accessible notifications with ARIA Live Regions (Part 1)](https://www.sarasoueidan.com/blog/accessible-notifications-with-aria-live-regions-part-1/)
