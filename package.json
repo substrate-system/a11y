@@ -35,10 +35,7 @@
     "./css": "./dist/index.css",
     "./css/*": "./dist/*.css",
     "./css/min/*": "./dist/*.min.css",
-    "./*": [
-      "./dist/*.css",
-      "./dist/*"
-    ]
+    "./*": "./dist/*.css"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
