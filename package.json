@@ -28,6 +28,7 @@
   },
   "exports": {
     ".": "./dist/index.css",
+    "./*.css": "./dist/*.css",
     "./reduced-motion": "./dist/reduced-motion.css",
     "./visually-hidden": "./dist/visually-hidden.css",
     "./min": "./dist/index.min.css",
