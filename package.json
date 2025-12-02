@@ -20,6 +20,7 @@
     "build": "mkdir -p ./dist && rm -rf ./dist/* && npm run build-css && npm run build-css:min && npm run build:index && npm run build-index:min",
     "build:index": "touch dist/index.css && cat ./src/*.css >> dist/index.css && postcss ./dist/index.css --use postcss-nesting --replace",
     "build-index:min": "postcss dist/index.css --use cssnano postcss-nesting > dist/index.min.css",
+    "build-example": "mkdir -p ./public && rm -rf ./public/* && vite --mode staging --base=\"/a11y\" build",
     "preversion": "npm run stylelint",
     "toc": "markdown-toc --maxdepth 3 -i README.md",
     "version": "npm run toc && auto-changelog -p --template keepachangelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md README.md",
