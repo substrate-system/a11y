@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
-import postcssNesting from 'postcss-nesting'
+import preact from '@preact/preset-vite'
+import browserslist from 'browserslist'
+import { browserslistToTargets } from 'lightningcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,17 +9,24 @@ export default defineConfig({
         global: 'globalThis'
     },
     root: 'example',
-    plugins: [],
+    plugins: [
+        preact({
+            devtoolsInProd: false,
+            prefreshEnabled: true,
+            babel: {
+                sourceMaps: 'both'
+            }
+        })
+    ],
     // https://github.com/vitejs/vite/issues/8644#issuecomment-1159308803
     esbuild: {
         logOverride: { 'this-is-undefined-in-esm': 'silent' }
     },
     publicDir: '_public',
     css: {
-        postcss: {
-            plugins: [
-                postcssNesting
-            ],
+        transformer: 'lightningcss',
+        lightningcss: {
+            targets: browserslistToTargets(browserslist('>= 0.25%')),
         },
     },
     server: {
@@ -27,6 +36,7 @@ export default defineConfig({
     },
     build: {
         minify: false,
+        cssMinify: 'lightningcss',
         outDir: '../public',
         emptyOutDir: true,
         sourcemap: 'inline'
